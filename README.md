@@ -1,5 +1,8 @@
 # Numidium
 
+>[!NOTE]
+>DEPRECATED in favor of the [Rust Version](https://github.com/krateng/numidium)
+
 It seems silly to go through the trouble of running Windows Mod Managers via Proton only for them to then go through extra trouble to make things on Windows work that already are much easier on Linux.
 
 Numidium uses OverlayFS, which can simply put any number of layers on top of the base game directory and then mount the result on the very same path, making the process completely invisible to Steam or the game itself, which also makes dynamic mods like LOD generators much simpler.
